@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カレンダー共有アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calendar">
+        <div class="header">
+            <button onclick="changeMonth(-1)">←</button>
+            <h2 id="month"></h2>
+            <button onclick="changeMonth(1)">→</button>
+        </div>
+
+        <div class="week">
+            <div>日</div>
+            <div>月</div>
+            <div>火</div>
+            <div>水</div>
+            <div>木</div>
+            <div>金</div>
+            <div>土</div>
+        </div>
+
+        <div id="days" class="days"></div>
+    </div>
+    <h2 id="selectedDate">日付を選択してください</h2>
+
+    <input type="text" id="eventInput" placeholder="予定を入力">
+    <button onclick="addEvent()">予定を追加</button>
+
+    <ul id="eventList"></ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<mxfile host="65bd71144e">
+    <diagram id="DHlh0yDfr4JevSMx3LZ_" name="ページ-1">
+        <mxGraphModel dx="2112" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="友人と遊ぶ予定が合わないペインを、カレンダーを共有して予定を決めやすくするためのカレンダー共有アプリ" vertex="1">
+                    <mxGeometry height="30" width="250" x="20" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="予定を管理する" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="□カレンダーを作成する" vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="メンバーを招待する" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="予定を登録する" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="予定を変更する" vertex="1">
+                    <mxGeometry height="60" width="120" x="840" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="予定を削除する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1160" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="カレンダー名設定" vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="カレンダーを共有する" vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="アプリユーザー" vertex="1">
+                    <mxGeometry height="30" width="100" x="40" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="予定を確認する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1320" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="カレンダーを表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1320" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="招待リンク送信" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="招待リンクから参加" vertex="1">
+                    <mxGeometry height="60" width="120" x="360" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="メンバーが参加する" vertex="1">
+                    <mxGeometry height="60" width="120" x="360" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="予定名、日付、時間を入力" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="内容を書き換える" vertex="1">
+                    <mxGeometry height="60" width="120" x="840" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="削除する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1160" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-32" edge="1" parent="1" style="shape=link;html=1;" value="">
+                    <mxGeometry relative="1" width="100" as="geometry">
+                        <mxPoint x="36.8" y="270" as="sourcePoint"/>
+                        <mxPoint x="1622.1333984375" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="カレンダーを開く" vertex="1">
+                    <mxGeometry height="60" width="120" x="1320" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-34" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ウォーキングスケルトン" vertex="1">
+                    <mxGeometry height="60" width="120" x="-120" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-35" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="タスクリスト" vertex="1">
+                    <mxGeometry height="60" width="120" x="-120" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="予定をリストで表示" vertex="1">
+                    <mxGeometry height="60" width="120" x="1320" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="複数同時入力" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-38" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="通知機能" vertex="1">
+                    <mxGeometry height="60" width="120" x="-120" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="メンバーの参加" vertex="1">
+                    <mxGeometry height="60" width="120" x="360" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="登録完了通知" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="削除完了通知" vertex="1">
+                    <mxGeometry height="60" width="120" x="1160" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="自分が設定した時間に通知" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-45" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="リマインダー設定" vertex="1">
+                    <mxGeometry height="60" width="120" x="-120" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-46" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="-120" y="350" as="sourcePoint"/>
+                        <mxPoint x="1410" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="カレンダー保存" vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="予定の詳細確認" vertex="1">
+                    <mxGeometry height="60" width="120" x="1480" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="変更内容を保存" vertex="1">
+                    <mxGeometry height="60" width="120" x="1000" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="FqHW3R0YkyDg13T6n0xP-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="予定を保存" vertex="1">
+                    <mxGeometry height="60" width="120" x="680" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="HMvC3oSgkDme_h-38YMD-2" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="-100" y="430" as="sourcePoint"/>
+                        <mxPoint x="1430" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="HMvC3oSgkDme_h-38YMD-3" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="-110" y="510" as="sourcePoint"/>
+                        <mxPoint x="1420" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
