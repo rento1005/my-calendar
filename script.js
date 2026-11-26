@@ -64,7 +64,7 @@ showCalendar();
 
 
 // 予定を保存する
-let events = {};
+let events = JSON.parse(localStorage.getItem("events")) || {};
 
 // 予定を追加する
 function addEvent() {
@@ -89,6 +89,7 @@ function addEvent() {
     }
 
     events[selectedDate].push(text);
+    localStorage.setItem("events", JSON.stringify(events));
 
     // 入力欄を空にする
     input.value = "";
@@ -106,12 +107,25 @@ function showEvents() {
 
     const eventArray = events[selectedDate] || [];
 
-    eventArray.forEach(function(event) {
+    eventArray.forEach(function(event, index) {
         const li = document.createElement("li");
 
-        li.textContent = event;
+        li.textContent = event + " ";
 
+        // 削除ボタンを作成
+        const button = document.createElement("button");
+        button.textContent = "削除";
+
+        button.onclick = function() {
+            events[selectedDate].splice(index, 1);
+            localStorage.setItem("events", JSON.stringify(events));
+
+            showEvents();
+        };
+
+        li.appendChild(button);
         list.appendChild(li);
     });
 }
+
 
