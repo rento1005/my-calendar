@@ -39,6 +39,8 @@ function showCalendar() {
                 selectedDate;
 
             showCalendar();
+            //選択した日の予定を表示
+            showEvents();
         };
 
         if (selectedDate === year + "-" +
@@ -60,4 +62,56 @@ function changeMonth(value) {
 // カレンダーを最初に表示
 showCalendar();
 
+
+// 予定を保存する
+let events = {};
+
+// 予定を追加する
+function addEvent() {
+    const input = document.getElementById("eventInput");
+    const text = input.value;
+
+    // 日付が選択されているか確認
+    if (selectedDate === "") {
+        alert("日付を選択してください");
+        return;
+    }
+
+    // 予定が入力されているか確認
+    if (text === "") {
+        alert("予定を入力してください");
+        return;
+    }
+
+    // 日付ごとに予定を保存
+    if (!events[selectedDate]) {
+        events[selectedDate] = [];
+    }
+
+    events[selectedDate].push(text);
+
+    // 入力欄を空にする
+    input.value = "";
+
+    // 予定を表示
+    showEvents();
+}
+
+
+// 予定を表示する
+function showEvents() {
+    const list = document.getElementById("eventList");
+
+    list.innerHTML = "";
+
+    const eventArray = events[selectedDate] || [];
+
+    eventArray.forEach(function(event) {
+        const li = document.createElement("li");
+
+        li.textContent = event;
+
+        list.appendChild(li);
+    });
+}
 
