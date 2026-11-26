@@ -1,14 +1,16 @@
-
+/*ページ全体*/
 body {
     font-family: sans-serif;
     text-align: center;
     background: #f5f5f5;
 }
 
+/*タイトル*/
 h1 {
     color: #333;
 }
 
+/*カレンダー全体*/
 .calendar {
     width: 500px;
     margin: 20px auto;
@@ -17,22 +19,26 @@ h1 {
     border-radius: 10px;
 }
 
+/*カレンダーのヘッダー*/
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/*曜日と日付の位置*/
 .week, .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
 
+/*曜日表示の設定*/
 .week div {
     padding: 10px;
     font-weight: bold;
 }
 
+/*日付マスの設定*/
 .day {
     border: 1px solid #ddd;
     min-height: 55px;
@@ -40,33 +46,49 @@ h1 {
     cursor: pointer;
 }
 
+/*マウスを乗せたときの設定*/
 .day:hover {
     background: #dceeff;
 }
 
+/*選択した日付の設定*/
 .selected {
     background: #b8dcff;
 }
 
+/*ボタンの設定*/
 button {
     padding: 8px 15px;
     cursor: pointer;
 }
 
+/*入力欄の設定*/
 input {
     padding: 8px;
 }
 
+/*予定リストの設定*/
 li {
     margin: 8px;
 }
 
+/*リスト全体の設定*/
 ul {
     padding-left: 0;
     list-style-position: inside;
 }
 
+/*予定の文字の配置*/
 li {
     margin: 8px;
-    text-align: center;
+    text-align: left;
+}
+
+/*リスト全体の設定*/
+#eventList {
+    text-align: left;
+    width: 500px;
+    margin: 15px auto;
+    padding: 0;
+    list-style-position: inside;
 }
