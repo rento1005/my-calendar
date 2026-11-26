@@ -1,4 +1,5 @@
 let currentDate = new Date();
+let selectedDate = "";
 
 function showCalendar() {
     const year = currentDate.getFullYear();
@@ -29,6 +30,23 @@ function showCalendar() {
         day.className = "day";
         day.textContent = i;
 
+        day.onclick = function () {
+            selectedDate = year + "-" +
+                String(month + 1).padStart(2, "0") + "-" +
+                String(i).padStart(2, "0");
+
+            document.getElementById("selectedDate").textContent =
+                selectedDate;
+
+            showCalendar();
+        };
+
+        if (selectedDate === year + "-" +
+            String(month + 1).padStart(2, "0") + "-" +
+            String(i).padStart(2, "0")) {
+            day.classList.add("selected");
+        }
+
         days.appendChild(day);
     }
 }
@@ -41,3 +59,5 @@ function changeMonth(value) {
 
 // カレンダーを最初に表示
 showCalendar();
+
+
