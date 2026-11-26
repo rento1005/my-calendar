@@ -1,6 +1,9 @@
 let currentDate = new Date();
 let selectedDate = "";
 
+// 予定を保存する
+let events = JSON.parse(localStorage.getItem("events")) || {};
+
 function showCalendar() {
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth();
@@ -29,6 +32,15 @@ function showCalendar() {
 
         day.className = "day";
         day.textContent = i;
+
+        // 予定がある日には●を表示
+        const date = year + "-" +
+            String(month + 1).padStart(2, "0") + "-" +
+            String(i).padStart(2, "0");
+
+        if (events[date] && events[date].length > 0) {
+            day.textContent += " ●";
+        }
 
         day.onclick = function () {
             selectedDate = year + "-" +
@@ -62,10 +74,6 @@ function changeMonth(value) {
 // カレンダーを最初に表示
 showCalendar();
 
-
-// 予定を保存する
-let events = JSON.parse(localStorage.getItem("events")) || {};
-
 // 予定を追加する
 function addEvent() {
     const input = document.getElementById("eventInput");
@@ -94,7 +102,8 @@ function addEvent() {
     // 入力欄を空にする
     input.value = "";
 
-    // 予定を表示
+    // カレンダーと予定を表示
+    showCalendar();
     showEvents();
 }
 
@@ -107,7 +116,7 @@ function showEvents() {
 
     const eventArray = events[selectedDate] || [];
 
-    eventArray.forEach(function(event, index) {
+    eventArray.forEach(function (event, index) {
         const li = document.createElement("li");
 
         li.textContent = event + " ";
@@ -116,7 +125,7 @@ function showEvents() {
         const button = document.createElement("button");
         button.textContent = "削除";
 
-        button.onclick = function() {
+        button.onclick = function () {
             events[selectedDate].splice(index, 1);
             localStorage.setItem("events", JSON.stringify(events));
 
